@@ -1,0 +1,377 @@
+.longpantsxyz-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.longpantsxyz-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  min-height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.longpantsxyz-contact {
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 1%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.longpantsxyz-contact1 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 3%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.longpantsxyz-navlink {
+  text-decoration: underline;
+}
+.longpantsxyz-navlink1 {
+  text-decoration: underline;
+}
+.longpantsxyz-post-setup {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 10%;
+  flex-direction: column;
+}
+.longpantsxyz-title-date-body {
+  flex: 0 0 auto;
+  width: 631px;
+  height: min-content;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 10%;
+  align-items: flex-start;
+  margin-left: 10%;
+  border-color: #ffffff;
+  border-width: 3px;
+  flex-direction: column;
+}
+.longpantsxyz-post-heading {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: "Courier New";
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.longpantsxyz-date-posted {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Courier New";
+  margin-left: 10px;
+}
+.longpantsxyz-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.longpantsxyz-body {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: "Courier New";
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+}
+@media(max-width: 991px) {
+  .longpantsxyz-title-date-body {
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+  }
+  .longpantsxyz-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text03 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text06 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text09 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text15 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text18 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text21 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text24 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text27 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text30 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+}
+@media(max-width: 767px) {
+  .longpantsxyz-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .longpantsxyz-title-date-body {
+    width: 90%;
+    height: auto;
+  }
+  .longpantsxyz-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text03 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text06 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text09 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text15 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text18 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text21 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text24 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text27 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text30 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+}
+@media(max-width: 479px) {
+  .longpantsxyz-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .longpantsxyz-contact {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .longpantsxyz-contact1 {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .longpantsxyz-title-date-body {
+    height: auto;
+    margin-right: auto;
+  }
+  .longpantsxyz-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text02 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text03 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text05 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text06 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text08 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text09 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text11 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text12 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text14 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text15 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text17 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text18 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text20 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text21 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text23 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text24 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text26 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text27 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+  .longpantsxyz-text29 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+  .longpantsxyz-text30 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Courier New;
+  }
+}

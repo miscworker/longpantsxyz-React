@@ -1,0 +1,159 @@
+.history-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.history-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  min-height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.history-contact {
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 1%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.history-contact1 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 3%;
+  font-family: "Courier New";
+  margin-right: 1%;
+}
+.history-navlink {
+  text-decoration: underline;
+}
+.history-navlink1 {
+  text-decoration: underline;
+}
+.history-post-setup {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 10%;
+  flex-direction: column;
+}
+.history-title-date-body {
+  flex: 0 0 auto;
+  width: 631px;
+  height: min-content;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 10%;
+  align-items: flex-start;
+  margin-left: 10%;
+  border-color: #ffffff;
+  border-width: 3px;
+  flex-direction: column;
+}
+.history-post-heading {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: "Courier New";
+  margin-left: 10px;
+  text-transform: lowercase;
+}
+.history-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.history-body {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: "Courier New";
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+}
+@media(max-width: 991px) {
+  .history-title-date-body {
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+  }
+  .history-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+}
+@media(max-width: 767px) {
+  .history-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .history-title-date-body {
+    width: 90%;
+    height: auto;
+  }
+  .history-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+  }
+}
+@media(max-width: 479px) {
+  .history-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .history-contact {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .history-contact1 {
+    left: 57px;
+    color: rgb(255, 255, 255);
+    bottom: -53px;
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-family: Courier New;
+  }
+  .history-title-date-body {
+    height: auto;
+    margin-right: auto;
+  }
+  .history-body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Courier New;
+    background-color: rgb(0, 0, 0);
+  }
+}
